@@ -1,0 +1,31 @@
+%YAML:1.0
+
+cameraType: "ip"   # for usb camera
+ip: "192.168.1.80"
+
+#cameraType: "usb"
+cameraDevice: 2
+
+## calibration
+rectify: 0 # whether rectify the image
+cameraMatrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1000., 0., 320., 0., 1000., 240., 0., 0., 1. ]
+distCoeffs: !!opencv-matrix
+   rows: 5
+   cols: 1
+   dt: d
+   data: [ 1.0000000000000001e-01, 1.0000000000000000e-02,
+       -1.0000000000000000e-03, 0., 0. ]
+
+cornersPerspectived:
+  - { x: 0, y: 0 }
+  - { x: 0, y: 400 }
+  - { x: 600, y: 0 }
+  - { x: 600, y: 400 }
+
+serialPortName: "ttyUSB0" # use cutecom to debug the serial port
+
+
