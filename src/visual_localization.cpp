@@ -28,16 +28,8 @@ static const char* keys =
 */
 static void help()
 {
-    std::cout << "parameters: \n"
-                 "{help h usage ?    | | print usage message}\n"
-                 "{useCamera         | | choose Camera or video}\n"
-                 "{d                 | | Camera device number}\n"
-                 "{v                 | | video name        }\n"
-                 "{r                 |5| ros rate}\n\n";
 
-    std::cout << "\n use example: ./visual_localization -useCamera=true -d=1 -r=5\n"
-                 "\n use example: ./visual_localization -useCamera=false -v=xx.avi -r=5\n"
-                 << std::endl;
+    std::cout << "\n use example: ./visual_localization ../conf/camera_info.yaml\n";
 
     std::cout << "\n\nHot keys: \n"
        "\tq - quit the program\n"

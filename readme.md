@@ -1,3 +1,5 @@
+#### install
+> install BOOSTING_lib and ipcam first
 
 #### Problem
 

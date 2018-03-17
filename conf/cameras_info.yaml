@@ -1,10 +1,9 @@
 %YAML:1.0
 
-cameraType: "ip"   # for usb camera
+cameraType: "ip"   # 'video', 'ip', 'usb'
 ip: "192.168.1.80"
 
-#cameraType: "usb"
-cameraDevice: 2
+#cameraDevice: 2 # for 'usb' camera
 
 ## calibration
 rectify: 0 # whether rectify the image
@@ -26,6 +25,6 @@ cornersPerspectived:
   - { x: 600, y: 0 }
   - { x: 600, y: 400 }
 
-serialPortName: "ttyUSB0" # use cutecom to debug the serial port
+serialPortName: "ttyUSB0" # use cutecom to debug the serial port, and " chmod 777 /dev/ttyUSB0 "
 
 

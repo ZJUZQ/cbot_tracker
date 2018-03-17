@@ -1,0 +1,26 @@
+[2018-03-09 09:50:05.781][INF] The COM:Core ver is 5.2.7.4, 2017_06_06. Async:1.
+[2018-03-09 09:50:05.781][INF] This hcnetsdk ver is 5.2.7.4 Ver 2017_06_06.
+[2018-03-09 09:50:05.781][INF] login dev 192.168.1.80:8000.
+[2018-03-09 09:50:06.445][INF] Private connect 192.168.1.80:8000 sock=42 this=0xa84f2014 cmd=0x10000 port=39908
+[2018-03-09 09:50:06.445][INF] LogonDev1 in[192.168.1.80:8000]
+[2018-03-09 09:50:06.510][ERR] CCoreGlobalCtrl::GetComPath err!! strlen(m_szComPath) = 0
+[2018-03-09 09:50:06.510][ERR] GetCoreGlobalCtrl()->GetComPath(pPath) err!!
+[2018-03-09 09:50:06.511][INF] AbilityAnalyze---Init-- start
+[2018-03-09 09:50:06.804][DBG] AbilityAnalyze---Init-- over, DeviceList path [/home/vortex/3rdparty/ipc/lib/hc_lib/HCNetSDKCom/LocalXml/DeviceList.xml], load result[0]
+[2018-03-09 09:50:06.804][INF] The COM:Preview ver is 5.2.7.4, 2017_06_06.
+[2018-03-09 09:50:06.804][INF] ID-IP-CHAN[0-192.168.1.80-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-03-09 09:50:07.098][DBG] ID-IP-CHAN[0-192.168.1.80-1] [CPreviewSession::Start] SUCC
+[2018-03-09 09:50:07.178][INF] Private connect 192.168.1.80:8000 sock=42 this=0xa84f2014 cmd=0x30000 port=39910
+[2018-03-09 09:50:07.187][ERR] CCoreGlobalCtrl::GetComPath err!! strlen(m_szComPath) = 0
+[2018-03-09 09:50:07.187][ERR] GetCoreGlobalCtrl()->GetComPath(pPath) err!!
+[2018-03-09 09:50:07.188][INF] GlobalCtrl load [.//HCNetSDKCom/libSystemTransform.so] with sdk path success and get handle[0x90001150]
+[2018-03-09 09:50:07.188][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2018-03-09 09:50:38.956][INF] CTransUnitMgr::UnloadTransUnitLib
+[2018-03-09 09:50:38.956][INF] ID-IP-CHAN[0-192.168.1.80-1] [CPreviewSession::Stop]
+[2018-03-09 09:50:38.956][INF] StopSendThread threadHandle:ffffffff
+[2018-03-09 09:50:38.956][DBG] ID-IP-CHAN[0-192.168.1.80-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2018-03-09 09:50:38.956][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2018-03-09 09:50:38.963][INF] Private connect 192.168.1.80:8000 sock=42 this=0xa84f2014 cmd=0x10100 port=39912
+[2018-03-09 09:50:39.447][ERR] CEzvizTrans::UnloadSSLLib failed
+[2018-03-09 09:50:39.447][INF] CSSLTrans::UnloadSSLLib, Lib Not Load
+[2018-03-09 09:50:39.447][INF] Libiconv, Lib Not Load.
